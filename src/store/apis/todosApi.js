@@ -21,4 +21,4 @@ export const todosApi = createApi({
 // createApi crea principalmente hooks
 // le pone query para saber q es un get, si fuera un post se pondria como sufijo una mutation
 // pone el prefijo 'use' por el estandar de react para los hooks
-export const { useGetTodosQuery } = todosApi;
+export const { useGetTodosQuery, useGetTodoQuery } = todosApi;
